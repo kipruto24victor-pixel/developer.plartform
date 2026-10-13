@@ -22,7 +22,7 @@ This repository contains the standalone Java 21/Spring Boot backend for the Pesa
 - API-key lifecycle (CREATED/ACTIVE/SUSPENDED/REVOKED/EXPIRED) with rotation lineage, per-key IP allowlists, usage metadata, and append-only key history;
 - HMAC-protected API-key storage and one-time secret disclosure;
 - API-key-authenticated, sandbox-scoped transactions endpoint for validating a newly issued key; transaction results are persisted records only and empty until transaction processing is implemented;
-- organization-scoped invoice requests, operator-issued invoices, idempotent payment attempts, provider status checks, Stripe-signed webhooks, and audited manual reconciliation;
+- organization-scoped invoice requests, operator-issued invoices, idempotent payment attempts, provider status checks, Stripe-signed webhooks, and audited manual recociliation;
 - per-user developer request and appearance preferences with optimistic concurrency, organization-scoped service accounts, and an operator-managed published changelog;
 - append-only, organization sequence-locked, HMAC hash-chained audit events;
 - liveness/readiness endpoints, Actuator, correlation IDs, and safe error envelopes.
